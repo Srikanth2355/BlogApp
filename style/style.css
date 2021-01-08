@@ -85,7 +85,6 @@ header::after {
 }
 .post-image {
     flex-basis: 40%;
-    background-image: url(https://images.unsplash.com/photo-1605675026658-c72bd5f573f7?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
     background-size: cover;
     background-position: center;
 }
@@ -101,7 +100,7 @@ header::after {
 }
 .post-title {
     margin-top: 12px;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
