@@ -9,7 +9,6 @@ body {
 
 header {
     min-height: 350px;
-    background-color: blue;
     color: white;
     display: flex;
     flex-direction: column;
@@ -113,10 +112,10 @@ header::after {
     line-height: 1.4;
     max-height: 70px;
     overflow: hidden;
-    font-family: sans-serif;
 }
 
-.nav-button.new-post-button {
+/* //.new-post-button i removed */
+.nav-button {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -148,4 +147,11 @@ footer {
     align-items: center;
     margin-top: 40px;
     font-size: 14px;
+}
+
+.navigation a {
+    text-decoration: none;
+    border: 1px solid #004186;
+    border-radius: 5px;
+    padding: 5px 8px;
 }
