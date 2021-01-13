@@ -14,11 +14,15 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/banner.jpeg);
+    
     background-size: cover;
     background-position: center;
     position: relative;
 
+}
+
+.home-page header {
+    background-image: url(/assets/banner.jpeg);
 }
 header > * {
     z-index: 10;
@@ -102,6 +106,7 @@ header::after {
     margin-top: 12px;
     font-size: 1.5em;
     font-weight: 700;
+    color: black;
 }
 
 .post-text {
@@ -153,4 +158,9 @@ footer {
     border: 1px solid #004186;
     border-radius: 5px;
     padding: 5px 8px;
+}
+
+a.post-link {   
+    text-decoration: none;
+
 }
