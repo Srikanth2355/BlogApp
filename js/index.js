@@ -1,6 +1,6 @@
 
 
-const API_URL = "http://localhost:3000/api/posts";
+const API_URL = "http://srikanth2355.github.io/api/posts";
 const API_BASE_URL = "https://srikanth2355.github.io/Serverforblogapp/ ";
 
 window.onload = () => {
